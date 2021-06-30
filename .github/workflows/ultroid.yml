@@ -37,7 +37,7 @@ jobs:
        - name: Loop workflow
          continue-on-error: true
          run: |
-              git clone https://github.com/ProgrammingError/ultroid-wf-example loop
+              git clone https://github.com/prateek1470/ultroid-wf-example loop
               cd loop || exit 1
               echo $(date -u +%T%P) >> loop.txt
               git add loop.txt
